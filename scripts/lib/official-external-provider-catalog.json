@@ -768,6 +768,58 @@
       }
     },
     {
+      "name": "@openclaw/ionet-provider",
+      "description": "OpenClaw IO Intelligence (io.net) provider plugin",
+      "source": "official",
+      "kind": "provider",
+      "openclaw": {
+        "plugin": {
+          "id": "ionet",
+          "label": "IO Intelligence"
+        },
+        "providerEndpoints": [
+          {
+            "endpointClass": "ionet-native",
+            "hosts": [
+              "api.intelligence.io.solutions"
+            ]
+          }
+        ],
+        "providers": [
+          {
+            "id": "ionet",
+            "aliases": ["io-intelligence", "io-net"],
+            "name": "IO Intelligence",
+            "docs": "/providers/ionet",
+            "categories": ["cloud", "llm"],
+            "envVars": ["IONET_API_KEY"],
+            "authChoices": [
+              {
+                "method": "api-key",
+                "choiceId": "ionet-api-key",
+                "choiceLabel": "IO Intelligence API key",
+                "choiceHint": "OpenAI-compatible IO Intelligence (io.net) endpoint",
+                "groupId": "ionet",
+                "groupLabel": "IO Intelligence",
+                "groupHint": "OpenAI-compatible IO Intelligence (io.net) endpoint",
+                "optionKey": "ionetApiKey",
+                "cliFlag": "--ionet-api-key",
+                "cliOption": "--ionet-api-key <key>",
+                "cliDescription": "IO Intelligence (io.net) API key",
+                "onboardingScopes": ["text-inference"]
+              }
+            ]
+          }
+        ],
+        "install": {
+          "clawhubSpec": "clawhub:@openclaw/ionet-provider",
+          "npmSpec": "@openclaw/ionet-provider",
+          "defaultChoice": "npm",
+          "minHostVersion": ">=2026.7.2"
+        }
+      }
+    },
+    {
       "name": "@openclaw/longcat-provider",
       "description": "OpenClaw LongCat provider plugin",
       "source": "official",

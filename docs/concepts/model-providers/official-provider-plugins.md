@@ -200,6 +200,7 @@ messages and normalizes `stats.cached` into `cacheRead`; legacy
 | GMI Cloud                               | `gmi`                            | `GMI_API_KEY`                                  | `gmi/google/gemini-3.1-flash-lite`                     |
 | Groq                                    | `groq`                           | `GROQ_API_KEY`                                 | `groq/llama-3.3-70b-versatile`                         |
 | Hugging Face Inference                  | `huggingface`                    | `HUGGINGFACE_HUB_TOKEN` or `HF_TOKEN`          | `huggingface/deepseek-ai/DeepSeek-R1`                  |
+| IO Intelligence (io.net)                | `ionet`                          | `IONET_API_KEY`                                | `ionet/openai/gpt-oss-20b`                             |
 | MiniMax                                 | `minimax` / `minimax-portal`     | `MINIMAX_API_KEY` / `MINIMAX_OAUTH_TOKEN`      | `minimax/MiniMax-M3`                                   |
 | Mistral                                 | `mistral`                        | `MISTRAL_API_KEY`                              | `mistral/mistral-large-latest`                         |
 | Moonshot                                | `moonshot`                       | `MOONSHOT_API_KEY`                             | `moonshot/kimi-k2.6`                                   |

@@ -176,7 +176,7 @@ Each entry lists the package, distribution route, and description.
 
 ## Official external packages
 
-92 plugins
+93 plugins
 
 - **[acpx](/plugins/reference/acpx)** (`@openclaw/acpx`) - npm or ClawHub: `clawhub:@openclaw/acpx`. OpenClaw ACP runtime backend with plugin-owned session and transport management.
 
@@ -253,6 +253,8 @@ Each entry lists the package, distribution route, and description.
 - **[imessage](/plugins/reference/imessage)** (`@openclaw/imessage`) - npm or ClawHub: `clawhub:@openclaw/imessage`. OpenClaw iMessage channel plugin using imsg on a signed-in Mac.
 
 - **[inworld](/plugins/reference/inworld)** (`@openclaw/inworld-speech`) - npm or ClawHub: `clawhub:@openclaw/inworld-speech`. Inworld streaming text-to-speech (MP3, OGG_OPUS, PCM telephony).
+
+- **[ionet](/plugins/reference/ionet)** (`@openclaw/ionet-provider`) - npm or ClawHub: `clawhub:@openclaw/ionet-provider`. Adds IO Intelligence (io.net) model provider support to OpenClaw.
 
 - **[irc](/plugins/reference/irc)** (`@openclaw/irc`) - npm or ClawHub: `clawhub:@openclaw/irc`. OpenClaw IRC channel plugin.
 

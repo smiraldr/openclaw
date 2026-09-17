@@ -39,6 +39,7 @@ The following defaults reuse the corresponding files in [`ui/public/provider-ico
 | `google`                | `ProviderIcon-gemini.svg`      |
 | `groq`                  | `ProviderIcon-groq.svg`        |
 | `huggingface`           | `ProviderIcon-huggingface.svg` |
+| `ionet`                 | `ProviderIcon-ionet.svg`       |
 | `kilocode`              | `ProviderIcon-kilo.svg`        |
 | `kimi-coding`           | `ProviderIcon-kimi.svg`        |
 | `litellm`               | `ProviderIcon-litellm.svg`     |

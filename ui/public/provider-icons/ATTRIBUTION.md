@@ -46,6 +46,16 @@ contributed by the LongCat team at Meituan with permission to use it here:
   `currentColor` so the mark renders on both light and dark themes; the
   geometry otherwise matches the cited source.
 
+## IO Intelligence icon
+
+`ProviderIcon-ionet.svg` is a metadata-cleaned copy of the official io.net
+brand mark (the "io" wordmark) published as the site favicon:
+
+- Source: https://io.net/icons/favicon-source.svg
+- The white rounded-square background plate was removed and the glyph
+  recolored to `currentColor` so the mark renders on both light and dark
+  themes; the geometry otherwise matches the cited source.
+
 ## llama.cpp icon
 
 `ProviderIcon-llamacpp.svg` is a metadata-cleaned copy of

@@ -548,6 +548,11 @@
       - any-glob-to-any-file:
           - "extensions/gmi/**"
           - "docs/providers/gmi.md"
+"extensions: ionet":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "extensions/ionet/**"
+          - "docs/providers/ionet.md"
 "extensions: tencent":
   - changed-files:
       - any-glob-to-any-file:

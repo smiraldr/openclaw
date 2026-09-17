@@ -33,6 +33,7 @@ Pick a provider, authenticate, then set the default model as `provider/model`.
 - [DeepInfra](/providers/deepinfra)
 - [fal](/providers/fal)
 - [Fireworks](/providers/fireworks)
+- [IO Intelligence (io.net)](/providers/ionet)
 - [MiniMax](/providers/minimax)
 - [Mistral](/providers/mistral)
 - [Moonshot AI (Kimi + Kimi Coding)](/providers/moonshot)
