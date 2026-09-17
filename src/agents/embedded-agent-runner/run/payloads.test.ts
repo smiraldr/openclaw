@@ -623,7 +623,9 @@ describe("buildEmbeddedRunPayloads tool-error warnings", () => {
     expectSingleToolErrorPayload(
       buildPayloads({
         assistantTexts: ["NO_REPLY"],
-        answerSegments: [{ textEnd: 1, messageEnd: 2, lastAssistant: silent }],
+        answerSegments: [
+          { textEnd: 1, messageEnd: 2, finalMessageStart: 2, lastAssistant: silent },
+        ],
         lastToolError: { toolName: "read", error: "failed", mutatingAction: false },
       }),
       { title: "Read" },
