@@ -4858,5 +4858,21 @@
   {
     "source": "FAQ: providers, hardware, and hosting",
     "target": "常见问题：服务商、硬件与托管"
+  },
+  {
+    "source": "IO Intelligence",
+    "target": "IO Intelligence"
+  },
+  {
+    "source": "IO Intelligence plugin",
+    "target": "IO Intelligence 插件"
+  },
+  {
+    "source": "io.net",
+    "target": "io.net"
+  },
+  {
+    "source": "IO Intelligence (io.net)",
+    "target": "IO Intelligence（io.net）"
   }
 ]

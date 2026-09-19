@@ -54,14 +54,14 @@ export IONET_API_KEY="<your-...key>" # pragma: allowlist secret
 
 ## Defaults
 
-| Setting       | Value                                             |
-| ------------- | ------------------------------------------------- |
-| Plugin        | `@openclaw/ionet-provider`                        |
-| Provider id   | `ionet`                                           |
-| Aliases       | `io-intelligence`, `io-net`                       |
-| Base URL      | `https://api.intelligence.io.solutions/api/v1`     |
-| Env var       | `IONET_API_KEY`                                   |
-| Default model | `ionet/openai/gpt-oss-20b`                        |
+| Setting       | Value                                          |
+| ------------- | ---------------------------------------------- |
+| Plugin        | `@openclaw/ionet-provider`                     |
+| Provider id   | `ionet`                                        |
+| Aliases       | `io-intelligence`, `io-net`                    |
+| Base URL      | `https://api.intelligence.io.solutions/api/v1` |
+| Env var       | `IONET_API_KEY`                                |
+| Default model | `ionet/openai/gpt-oss-20b`                     |
 
 ## Available models
 
@@ -83,7 +83,7 @@ ionet/zai-org/GLM-5.3-Flash
 ionet/openai/gpt-oss-120b
 ionet/openai/gpt-oss-20b
 ionet/meta-llama/Llama-3.3-70B-Instruct
-ionet/Qwen/Qwen3-Coder-480B-A35B-Instruct
+ionet/Intel/Qwen3-Coder-480B-A35B-Instruct-int4-mixed-ar
 ...and more
 ```
 
